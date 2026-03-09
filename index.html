@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <h2>Welcome to Vaishnavi's World</h2>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Vaishnavi's Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-name">Vaishnavi</span>
+                    <span class="title-role" id="typewriter"></span>
+                </h1>
+                <p class="hero-description">
+                    Passionate developer creating amazing digital experiences with modern technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="float-element code">&lt;code/&gt;</div>
+                    <div class="float-element design">🎨</div>
+                    <div class="float-element data">📊</div>
+                    <div class="float-element web">🌐</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>My Story</h3>
+                        <p>I'm a passionate developer with a love for creating innovative solutions. My journey in technology started with curiosity and has evolved into expertise across multiple domains.</p>
+                        
+                        <h3>What I Do</h3>
+                        <ul class="about-list">
+                            <li><i class="fas fa-code"></i> Full-Stack Development</li>
+                            <li><i class="fas fa-mobile-alt"></i> Data Analyst</li>
+                            <li><i class="fas fa-code-branch"></i> UI/UX Developer</li>
+                        </ul>
+                        
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number" data-count="3">0</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="-">0</span>
+                                <span class="stat-label">Fresher</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="10+">0</span>
+                                <span class="stat-label">programming Languages known</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="profile-image"></div>
+                        <div class="tech-orbit">
+                            <div class="tech-item" style="--i: 1;">JS</div>
+                            <div class="tech-item" style="--i: 2;">Angular</div>
+                            <div class="tech-item" style="--i: 3;">Node</div>
+                            <div class="tech-item" style="--i: 4;">MySQL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="50"></div></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="40"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="78"></div></div>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                       
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>Version Control</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                 Projects will be loaded dynamically from the database 
+            </div>
+            <div class="project-form-section">
+               <h3>Add New Project (Admin)</h3>
+                <form id="projectForm" class="project-form">
+                    <input type="text" id="projectTitle" placeholder="Project Title" required>
+                    <textarea id="projectDescription" placeholder="Project Description" required></textarea>
+                    <input type="url" id="projectImage" placeholder="Image URL" required>
+                    <input type="url" id="projectDemo" placeholder="Demo URL">
+                    <input type="url" id="projectGithub" placeholder="GitHub URL">
+                    <input type="text" id="projectTech" placeholder="Technologies (comma-separated)" required>
+                    <button type="submit" class="btn btn-primary">Add Project</button>
+                </form>
+            </div>
+        </div>
+    </section>
+     <!-- Projects 
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>To Do List</p>
+        <p><strong>Tech:</strong>HTML,CSS,Javascript</p>
+        <a href="C:\Users\Admin\Desktop\To do list">Live Demo</a> | <a href="#">GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>Calculator</p>
+        <p><strong>Tech:</strong>
+           HTML ,CSS ,Javascript</p>
+        <a href="C:\Users\Admin\Desktop\calculator">Live Demo</a> | <a href="#">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="https://via.placeholder.com/300x200" alt="Project 3" />
+      <h3>Project Three</h3>
+      <p>Quiz</p>
+      <p><strong>Tech: HTML ,CSS ,Javascript</strong></p>
+      <a href="C:\Users\Admin\Desktop\quiz">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+  </div>
+  </section>-->
+
+ 
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>vaishnavikundekar3118@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+91 7385449664</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Pune, Maharashtra, India</p>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Vaishnavi's Portfolio. Crafted with ❤️</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vaishnavi-kundekar-5374b9313 " class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/vaishu-4399 " class="social-link"><i class="fab fa-github"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Particles Background -->
+    <div id="particles"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
